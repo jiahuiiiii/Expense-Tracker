@@ -1,5 +1,5 @@
 # Hello World
-my old app crash because i don't know how to use git correctly i guess
+my old app crashed because i didn't know how to use git correctly i guess
 
 so, i created a new app
 
