@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../images/exptrack-logo.png";
+import logo from "../images/logo.png";
 import { Link } from "react-router-dom";
+import ChevronDown from "../images/ChevronDown";
 
 const Header = () => {
   return (
@@ -12,8 +13,11 @@ const Header = () => {
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/signin">Sign In</Link>
-          <Link to="/signup">Sign Up</Link>
+          <Link className="text-white bg-rose p-4 px-8 rounded-lg" to="/signup">
+            Sign Up
+          </Link>
         </div>
+        {/* <ChevronDown/> */}
       </div>
     </div>
   );
