@@ -6,3 +6,5 @@ so, i created a new app
 except of fixing the existing problem, i'll also renew the UI design
 
 hope i don't die while coding lel
+
+by jiahuiiiii @ 3rd Feb 2022
