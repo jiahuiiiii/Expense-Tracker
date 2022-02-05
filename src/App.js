@@ -9,20 +9,18 @@ import SignUp from "./pages/SignUp";
 
 function App() {
   return (
-    <div className="flex px-8 pt-8 font-proxima w-full justify-center">
+    <div className="flex pt-8 font-proxima w-full h-screen flex-col">
       <Router>
-        <div>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Tracker />} />
-            <Route path="/tracker" element={<Tracker />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/signin" element={<SignIn />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="*" element={<ErrorPage />} />
-          </Routes>
-        </div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Tracker />} />
+          <Route path="/tracker" element={<Tracker />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
       </Router>
     </div>
   );
