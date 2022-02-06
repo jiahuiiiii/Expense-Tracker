@@ -1,11 +1,16 @@
 import React from "react";
+import Expenses from "../components/Expenses/Expenses";
 import ExpenseForm from "../components/NewExpenses/ExpenseForm";
 
 const Tracker = () => {
   return (
-    <div className="flex items-center justify-between gap-16 w-full h-full">
-      <ExpenseForm />
-      <div className="flex-1"></div>
+    <div className="h-full">
+      <div className="flex h-full px-16 flex-row">
+        <ExpenseForm />
+        <div className="flex-1">
+          <Expenses />
+        </div>
+      </div>
     </div>
   );
 };
