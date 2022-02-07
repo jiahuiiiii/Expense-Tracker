@@ -31,8 +31,14 @@ const expenses = [
 
 const Expenses = () => {
   return (
-    <div className="">
-      <div>Expenses in January 2022</div>
+    <div className="p-8 space-y-2">
+      <div className="flex flex-col tracking-widest">
+        <div className="flex flex-row space-x-2.5">
+          <div className="text-4xl">Expenses in</div>
+          <div className="text-4xl font-bold">January 2022</div>
+        </div>
+        <div className="text-rose text-xl">$2000</div>
+      </div>
       <ExpenseItem expenses={expenses[0]} />
       <ExpenseItem expenses={expenses[1]} />
       <ExpenseItem expenses={expenses[2]} />
