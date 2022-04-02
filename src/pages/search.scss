@@ -1,0 +1,27 @@
+.search {
+    & > input {
+      transition: all 1s;
+      width: 0;
+      padding-left: 0;
+      padding-right: 0;
+      box-shadow: 0 0 0 #F43F5E;
+    }
+    
+    & div.toggle {
+      transition: all .6s;
+      background-color: #E11D48;
+    }
+    
+    &.toggle {
+      & input {
+        width: 16rem;
+        box-shadow: 0 0 12px #F43F5E;
+        padding-left: 1rem;
+        padding-right: 1rem
+      }
+      
+      & div.toggle {
+        background-color: #262626;
+      }
+    }
+  }
